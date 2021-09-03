@@ -2,6 +2,27 @@
 <html>
   <head>
     <title>My first webpage!</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+<style media="screen">
+  h1 {
+    color: #00f;
+    text-align: center;
+  }
+  h2 {
+    color: green;
+    font-style: italic;
+    text-align: center;
+  }
+  p{
+    font-family:sans-serif;
+  }
+  ul{
+    line-height: 40px;
+  }
+  ul{
+    background-color: indigo;
+  }
+</style>
   </head>
   <body>
     <h1>My First webpage</h1>
@@ -17,7 +38,6 @@
         <li>JavaScript</li>
         <li>And a lot more</li>
       </ul>
-
   </body>
   <p>Check out <a href="http://moringaschool.com/">Moringa School</a>. It's a great place to learn web development skills!</p>
   <p>Here is a link to my <a href="favorite-things.html">favorite things</a>.</p>
